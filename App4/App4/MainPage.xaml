@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="App4.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Trabajo ExtraClase 2 Algoritmos y Estructura de Datos 2" FontSize="Title" Padding="30,10,30,10"/>
+        <Entry x:Name="entry1" Placeholder="Introduzca el primer texto" />
+        <Entry x:Name="entry2" Placeholder="Introduzca el segundo texto" />
+        <Button Text="Concatenar" Clicked="OnButtonClicked" />
+        <Label x:Name="labelResult" Padding="200,30,50,50"/>
+        <Label Text="Estudiantes: &#xA; Ignacio Lorenzo Martínez &#xA; Jose Ignacio Rivera"  Padding="5,0"></Label>
+        
+    </StackLayout>
+
+</ContentPage>
